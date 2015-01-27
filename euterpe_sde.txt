@@ -1,0 +1,57 @@
+# Foraging data for Euterpe edulis. Brazil, June 2013. From table SM2 in Galetti et al (2013) Science.
+# 1. Handled fruits (frhandleld_vis) are all fruits touched by the birds, and include fruits that were swallowed, 
+#    dropped, carried in the beak, predated and that had the pulp consumed.
+# 2. Dispersed fruits (frdisp_vis) include only the fruits that were swallowed by the birds.
+# 3. Dispersal probability (dispprob) = Total dispersed fruits/Total handled fruits.
+# 4. Quantitative component (qc) = (Number visits/10 hours) x (Number of fruits handled/visit) x (Dispersal probability).
+#
+size	family	species	common_name	behavior	gape	vis_10h	frhandleld_vis	frdisp_vis	dispprob	qc
+Large	Momotidae	Baryphthengus ruficapillus	Rufous-capped Motmot	regurgitate	17.2	0.60	0.83	0.83	1.00	0.50
+Large	Trogonidae	Trogon viridis 	White-tailed Trogon	regurgitate	19.6	0.10	1.00	1.00	1.00	0.10
+Large	Tyrannidae	Myiodynastes maculatus	Streaked Flycatcher	regurgitate	17.0	0.24	1.00	1.00	1.00	0.24
+Small	Turdidae	Turdus albicollis	White-necked Thrush	regurgitate	11.2	0.51	1.27	1.18	0.93	0.60
+Small	Turdidae	Turdus amaurochalinus	Creamy-bellied Thrush	regurgitate	11.4	1.37	0.94	0.94	1.00	1.28
+Small	Turdidae	Turdus flavipes	Yellow-legged Thrush	regurgitate	12.1	19.00	1.67	1.63	0.97	31.00
+Small	Turdidae	Turdus leucomelas	Pale-breasted Thrush	regurgitate	11.9	1.28	1.21	1.21	1.00	1.55
+Small	Turdidae	Turdus rufiventris	Rufous-bellied Thrush	regurgitate	12.0	1.20	1.29	1.21	0.94	1.45
+Large	Psitacidae	Pionus maximiliani	Scaly-headed Parrot	pulp consumer	16.2	0.40	19.25	0.00	0.00	0.00
+Large	Psitacidae	Pyrrhura frontalis	Maroon-bellied Parakeet	seed predator	11.2	0.10	70.00	0.00	0.00	0.00
+Large	Psitacidae	Triclaria malachitacea	Blue-bellied Parrot	seed predator	13.6	0.20	86.00	0.00	0.00	0.00
+Large	Cotingidae	Carpornis cucullata	Hooded Berryeater	regurgitate	14.4	0.30	2.97	2.12	0.71	0.64
+Large	Cotingidae	Lipaugus lanioides	Cinnamon-vented Piha	regurgitate	18.7	0.83	2.10	2.10	1.00	1.74
+Large	Cotingidae	Procnias nudicollis	Bare-throated Bellbird	regurgitate	24.5	0.42	5.54	5.41	0.98	2.29
+Large	Cotingidae	Pyroderus scutatus	Red-ruffed Fruitcrow	regurgitate	26.7	0.12	2.20	2.20	1.00	0.25
+Large	Momotidae	Baryphthengus ruficapillus	Rufous-capped Motmot	regurgitate	17.2	0.30	1.67	1.57	0.94	0.47
+Large	Picidae	Celeus flavescens	Blond-crested Woodpecker	regurgitate	12.9	0.03	2.00	2.00	1.00	0.06
+Large	Ramphastidae	Pteroglossus bailloni	Saffron Toucanet	regurgitate	23.6	0.45	3.60	3.60	1.00	1.64
+Large	Ramphastidae	Ramphastos dicolorus	Red-breasted Toucan	regurgitate	30.7	0.14	4.44	4.37	0.98	0.63
+Large	Ramphastidae	Ramphastos vitellinus	Channel-billed Toucan	regurgitate	31.0	0.34	6.95	6.44	0.93	2.20
+Large	Ramphastidae	Selenidera maculirostris	Spot-billed Toucanet	regurgitate	25.2	0.51	6.28	6.02	0.96	3.05
+Large	Tityridae	Tityra cayana	Black-tailed Tityra	regurgitate	18.7	0.04	2.25	2.00	0.89	0.08
+Large	Trogonidae	Trogon viridis	White-tailed Trogon	regurgitate	19.6	1.22	1.09	0.55	0.50	0.66
+Small	Turdidae	Turdus albicollis	White-necked Thrush	regurgitate	11.2	1.57	1.99	1.42	0.71	2.22
+Small	Turdidae	Turdus amaurochalinus	Creamy-bellied Thrush	regurgitate	11.4	0.42	1.16	0.95	0.82	0.40
+Small	Turdidae	Turdus flavipes	Yellow-legged Thrush	regurgitate	12.0	2.69	1.41	1.07	0.76	2.87
+Small	Turdidae	Turdus leucomelas	Pale-breasted Thrush	regurgitate	11.9	1.52	0.97	0.71	0.73	1.08
+Small	Turdidae	Turdus rufiventris	Rufous-bellied Thrush	regurgitate	12.0	0.20	1.75	1.50	0.86	0.30
+Small	Turdidae	Turdus subalaris	Eastern Slaty Thrush	regurgitate	12.0	0.11	3.00	3.00	1.00	0.33
+Large	Tyrannidae	Myiodynastes maculatus	Streaked Flycatcher	regurgitate	17.0	0.06	2.00	2.00	1.00	0.12
+Large	Tyrannidae	Pitangus sulphuratus 	Great Kiskadee	regurgitate	15.5	0.05	1.50	1.50	1.00	0.07
+Large	Cracidae	Aburria jacutinga	Black-fronted Piping-Guan	defecate	24.0	0.18	30.09	30.09	1.00	5.46
+Large	Cracidae	Penelope obscura	Dusky-legged Guan	defecate	23.4	0.12	8.91	8.27	0.93	0.97
+Large	Corvidae	Cyanocorax caeruleus 	Azure Jay	pulp consumer	17.2	0.12	2.38	1.13	0.47	0.14
+Small	Fringillidae	Euphonia pectoralis	Chestnut-bellied Euphonia	pulp consumer	6.5	0.17	3.60	0.00	0.00	0.00
+Small	Fringillidae	Euphonia violacea	Violaceous Euphonia	pulp consumer	6.5	0.10	4.00	0.00	0.00	0.00
+Large	Psitacidae	Pionus maximiliani	Scaly-headed Parrot	pulp consumer	16.2	0.24	11.80	0.00	0.00	0.00
+Small	Thraupidae	Dacnis cayana	Blue Dacnis	pulp consumer	7.0	0.11	3.00	0.00	0.00	0.00
+Small	Thraupidae	Orthogonys chloricterus	Olive-green Tanager	pulp consumer	9.8	0.05	2.67	0.00	0.00	0.00
+Small	Thraupidae	Tachyphonus coronatus	Ruby-crowned Tanager	pulp consumer	9.1	0.05	1.00	0.40	0.40	0.02
+Small	Thraupidae	Tangara cayana	Burnished-buff Tanager	pulp consumer	8.8	0.07	6.50	0.00	0.00	0.00
+Small	Thraupidae	Tangara cyanocephala	Red-necked Tanager	pulp consumer	6.6	0.06	1.00	0.00	0.00	0.00
+Small	Thraupidae	Tangara cyanoptera	Azure-shouldered Tanager	pulp consumer	10.9	0.21	7.17	0.00	0.00	0.00
+Small	Thraupidae	Tangara ornata	Golden-chevroned Tanager	pulp consumer	NA	0.43	1.00	0.00	0.00	0.00
+Small	Thraupidae	Tangara seledon	Green-headed Tanager	pulp consumer	7.0	0.16	1.08	0.08	0.08	0.01
+Small	Vireonidae	Cyclarhis gujanensis	Rufous-browed Peppershrike	pulp consumer	NA	0.07	1.50	0.00	0.00	0.00
+Small	Psitacidae	Brotogeris tirica	Plain Parakeet	seed predator	9.9	0.07	3.50	0.00	0.00	0.00
+Large	Psitacidae	Pyrrhura frontalis	Maroon-bellied Parakeet	seed predator	11.2	0.30	18.88	0.00	0.00	0.00
+Large	Psitacidae	Triclaria malachitacea	Blue-bellied Parrot	seed predator	13.6	0.07	32.00	0.00	0.00	0.00
