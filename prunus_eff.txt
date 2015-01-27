@@ -5,7 +5,7 @@
 # prop_visits-        Proportion of total visits recorded (feeding records) contributed by species. 
 #                     Relative to the total no. records in two study years.
 # eff_per_vis-        Mean no. fruits swallowed per visit (successfully dispersed seeds).
-# eff_total-          Visit rate * eff_per_vis*prop fruits swallowed
+# eff_total-          Visit rate * eff_per_vis*prop fruits swallowed.
 # prop_disp_service-  Proportion of total dispersal service contributed by species.
 #
 dataset	plant	animal	group	abundance	visits	prop_visits	eff_per_vis	eff_total	prop_disp_service	frugivore_species
