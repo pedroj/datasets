@@ -1,4 +1,5 @@
-# Foraging data for Euterpe edulis (Arecaceae). Brazil, June 2013. From table SM2 in Galetti et al (2013) Science.
+# Foraging data for Euterpe edulis (Arecaceae). Brazil, May 2012. Updated March 2013. 
+# From table SM2 in Galetti et al (2013) Science.
 # 1. Handled fruits (frhandleld_vis) are all fruits touched by the birds, and include fruits that were swallowed, 
 #    dropped, carried in the beak, predated and that had the pulp consumed.
 # 2. Dispersed fruits (frdisp_vis) include only the fruits that were swallowed by the birds.
