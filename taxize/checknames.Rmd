@@ -1,0 +1,32 @@
+---
+title: "Check names"
+author: "Pedro Jordano"
+date: "23/2/2017"
+output: html_document
+---
+
+### Check install of `taxize`
+```{r install}
+if (!require("devtools")) install.packages("devtools")
+devtools::install_github("ropensci/taxize")
+library("taxize")
+
+```
+
+
+### Get list of names
+
+
+```{r cars}
+summary(cars)
+```
+
+## Names check
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
