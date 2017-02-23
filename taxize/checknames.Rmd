@@ -16,17 +16,23 @@ library("taxize")
 
 ### Get list of names
 
+```{r names}
+names<- c("Penelope obscura","Aburria jacutinga","Ramphastos vitellinus","Ramphastos dicolorus","Procnias nudicollis","Selenidera maculirostris","Baillonius bailloni","Trogon viridis","Trogon surrucura","Tityra cayana","Euphonia violacea","Euphonia pectoralis","Thraupis sayaca","Tangara seledon","Turdus rufiventris","Turdus albicollis")
 
-```{r cars}
-summary(cars)
 ```
 
-## Names check
+## Names check and higher taxonomic categories
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r check, echo=FALSE}
+temp <- gnr_resolve(names)
+head(temp)
+lapply(names, itis_acceptname)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r highercat, echo=FALSE}
+
+classification(names, db = 'ncbi')
+get_nbnid("Turdus rufiventris")
+pp<-get_nbnid_("Turdus rufiventris", rows = 1:10)
+
+```
